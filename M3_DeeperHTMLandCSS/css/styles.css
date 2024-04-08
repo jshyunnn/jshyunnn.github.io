@@ -5,6 +5,10 @@ table {
     letter-spacing: 1px;
 }
 
+li.first-letter-bold:first-letter {
+    font-weight:bold;
+}
+
 .a{list-style-type: lower-roman;}
 .b{list-style-type: square;}
 .c{list-style-type: lower-alpha;}
