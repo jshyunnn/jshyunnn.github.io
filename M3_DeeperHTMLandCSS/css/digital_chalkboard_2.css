@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+
+a#not-nav:link {
+    color: hotpink;
+}
+
+a#not-nav:visited {
+    color: red;
+}
+
+a#not-nav:hover {
+    color: darkblue;
+}
+
+h1::first-letter {
+    color: maroon;
+    font-size: 50px;
+}
+
+li.big-first-letter::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
