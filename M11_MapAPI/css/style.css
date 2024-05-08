@@ -1,0 +1,16 @@
+.navbar {
+    letter-spacing: 0.5px;
+    background-color: #800000;
+}
+  
+a.navbar-brand {
+    color: white;
+}
+  
+a.nav-link {
+    color: white;
+}
+  
+#map {
+    height: 400px;
+}
