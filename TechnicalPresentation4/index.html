@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+    />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/css/technical_presentation_4.css">
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <div id="title">
+                <span id="track"></span>
+                <div id="timer">0:00</div>
+                <div id="duration">0:00</div>
+            </div>
+            <div class="controlsOuter">
+                <div class="controlsInner">
+                    <div id="loading"></div>
+                    <div class="btn" id="playBtn"></div>
+                    <div class="btn" id="pauseBtn"></div>
+                    <div class="btn" id="prevBtn"></div>
+                    <div class="btn" id="nextBtn"></div>
+                </div>
+            </div>
+            <div id="playlist">
+                <div id="list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+    <script src="/js/technical_presentation_4_howler.js"></script>
+</body>
+</html>
